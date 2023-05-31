@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: whisper-api-proxy
+    env: python
+    repo: https://gitlab.com/dkh/whisper-api-proxy
+    buildCommand: pipenv install --deploy --system
+    startCommand: uvicorn main:app --host "0.0.0.0"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.10.11"
+      - key: OPENAI_API_KEY
+        sync: false
