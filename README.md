@@ -10,3 +10,7 @@ whisper-api-proxy
 
 * Start the server via `pipenv run serve`. (Or run `pipenv run uvicorn main:app --host 0.0.0.0`)
 * Make a `POST` request to `/transcribe` containing the raw audio data. You will be returned the transcription in plaintext.
+
+You can also quickly deploy on Render using this button.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)

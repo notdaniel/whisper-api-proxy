@@ -2,7 +2,7 @@ services:
   - type: web
     name: whisper-api-proxy
     env: python
-    repo: https://gitlab.com/dkh/whisper-api-proxy
+    repo: https://github.com/notdaniel/whisper-api-proxy
     buildCommand: pipenv install --deploy --system
     startCommand: uvicorn main:app --host "0.0.0.0"
     envVars:
