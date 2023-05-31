@@ -13,4 +13,4 @@ whisper-api-proxy
 
 You can also quickly deploy on Render using this button.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/notdaniel/whisper-api-proxy)
